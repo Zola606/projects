@@ -1,0 +1,1 @@
+{"title":"Phishing Investigation and Response","category":"cybersecurity-soc","context":"South African SME mailbox compromise scenario","tools":["Email headers","SIEM or ticket system","NIST incident-response lifecycle"],"outcome":"Investigate and contain a simulated phish while preserving evidence and communicating clearly."}

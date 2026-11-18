@@ -1,0 +1,1 @@
+{"title":"Campus Access-Layer Hardening","category":"cisco-network-security","context":"South African school or TVET campus","tools":["Cisco Catalyst IOS XE","Packet Tracer or GNS3"],"outcome":"Reduce rogue DHCP, ARP spoofing, MAC flooding, and spanning-tree abuse at access ports."}

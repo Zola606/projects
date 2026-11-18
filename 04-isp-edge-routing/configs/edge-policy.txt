@@ -1,0 +1,9 @@
+! Documentation-only policy skeleton; use your RIR/upstream allocation.
+ip prefix-list CUSTOMER-OUT seq 10 permit 198.51.100.0/24
+ip prefix-list CUSTOMER-OUT seq 100 deny 0.0.0.0/0 le 32
+route-map UPSTREAM-OUT permit 10
+ match ip address prefix-list CUSTOMER-OUT
+!
+! Add inbound filters, max-prefix, RPKI validation, and uRPF only after
+! confirming platform support and asymmetric-routing requirements.
+

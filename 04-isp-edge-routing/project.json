@@ -1,0 +1,1 @@
+{"title":"Small-ISP Edge Routing and Anti-Spoofing","category":"cisco-network-security","context":"Community ISP or WISP serving a peri-urban area","tools":["Cisco IOS routing and ACLs","GNS3 or EVE-NG"],"outcome":"Provide resilient uplinks and protect the management and transit planes."}

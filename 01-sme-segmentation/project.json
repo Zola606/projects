@@ -1,0 +1,1 @@
+{"title":"SME VLAN Segmentation","category":"cisco-network-security","context":"Cape Town professional-services SME","tools":["Cisco IOS","Packet Tracer or GNS3"],"outcome":"Separate staff, servers, voice, management, and guest traffic with least-privilege ACLs."}

@@ -1,0 +1,1 @@
+{"title":"Resource-Constrained SOC Log Pipeline","category":"cybersecurity-soc","context":"Regional NGO or SME with a small IT team","tools":["Python standard library","Syslog/JSON fixtures","Any SIEM"],"outcome":"Normalize useful telemetry and triage high-value alerts without retaining unnecessary personal data."}

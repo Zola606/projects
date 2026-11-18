@@ -1,0 +1,1 @@
+{"title":"Branch IPsec Resilience","category":"cisco-network-security","context":"Cape Town headquarters and Johannesburg branch","tools":["Cisco IOS IKEv2/IPsec","EVE-NG, GNS3, or Packet Tracer"],"outcome":"Protect branch traffic and document failover, monitoring, and recovery."}

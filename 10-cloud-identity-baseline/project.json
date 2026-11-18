@@ -1,0 +1,1 @@
+{"title":"Cloud Identity Security Baseline","category":"cybersecurity-soc","context":"African startup using SaaS and cloud services","tools":["Identity provider","MFA","Access reviews","Python standard library"],"outcome":"Measure MFA, least privilege, stale accounts, and privileged access with privacy-aware reporting."}

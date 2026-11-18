@@ -1,0 +1,11 @@
+! Illustrative policy values only; choose supported algorithms for your release.
+crypto ikev2 proposal LAB-PROPOSAL
+ encryption aes-cbc-256
+ integrity sha256
+ group 14
+crypto ikev2 policy LAB-POLICY
+ proposal LAB-PROPOSAL
+!
+! Define the peer, authentication, and crypto map only after an approved design.
+! Keep identities and keys in a secret manager, not in Git.
+

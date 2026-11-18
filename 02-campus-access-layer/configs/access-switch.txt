@@ -1,0 +1,22 @@
+! Lab-only; trust only the actual DHCP-server/uplink port after verification.
+ip dhcp snooping
+ip dhcp snooping vlan 10,20,30
+ip arp inspection vlan 10,20,30
+!
+interface GigabitEthernet1/0/48
+ description LAB-UPLINK-TO-DHCP-ROUTER
+ ip dhcp snooping trust
+ ip arp inspection trust
+!
+interface range GigabitEthernet1/0/1-47
+ switchport mode access
+ switchport port-security
+ switchport port-security maximum 2
+ switchport port-security violation restrict
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+ ip dhcp snooping limit rate 15
+!
+interface range GigabitEthernet1/0/49-52
+ shutdown
+
