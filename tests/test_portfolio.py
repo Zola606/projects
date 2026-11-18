@@ -7,7 +7,7 @@ ROOT = pathlib.Path(__file__).parents[1]
 
 
 class PortfolioTests(unittest.TestCase):
-    def test_ten_projects_have_metadata(self):
+    def test_twenty_projects_have_metadata(self):
         projects = sorted(p for p in ROOT.iterdir() if p.is_dir() and p.name[:2].isdigit())
         self.assertEqual(len(projects), 20)
         categories = [
