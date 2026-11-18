@@ -1,0 +1,10 @@
+! Lab-only skeleton; use your approved AAA and management addresses.
+ip ssh version 2
+login block-for 120 attempts 3 within 60
+ip access-list standard MGMT-SOURCES
+ permit 192.0.2.0 0.0.0.255
+line vty 0 15
+ transport input ssh
+ access-class MGMT-SOURCES in
+ exec-timeout 10 0
+

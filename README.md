@@ -19,6 +19,16 @@ implement a control, validate it, and document evidence and residual risk.
    management-plane ACLs, and anti-spoofing checks for a small ISP.
 5. **[05-wifi-guest-isolation](05-wifi-guest-isolation/)** — secure staff/guest
    wireless segmentation, AAA design, and captive-portal assumptions.
+11. **[11-secure-management-plane](11-secure-management-plane/)** — SSH-only
+    administration, AAA, logging, and role separation.
+12. **[12-dns-dhcp-protection](12-dns-dhcp-protection/)** — resilient campus
+    DHCP/DNS design with trusted-server controls.
+13. **[13-vpn-remote-access](13-vpn-remote-access/)** — least-privilege remote
+    access for distributed African field teams.
+14. **[14-network-monitoring](14-network-monitoring/)** — SNMPv3, NetFlow,
+    syslog, and capacity baselines.
+15. **[15-data-center-segmentation](15-data-center-segmentation/)** — tiered
+    application segmentation and controlled east-west flows.
 
 ### Cybersecurity and SOC
 
@@ -32,6 +42,16 @@ implement a control, validate it, and document evidence and residual risk.
    ransomware tabletop exercise with recovery and communications planning.
 10. **[10-cloud-identity-baseline](10-cloud-identity-baseline/)** — identity
     baseline, MFA coverage, least privilege, and access-review metrics.
+16. **[16-security-awareness](16-security-awareness/)** — measurable,
+    privacy-aware security awareness for multilingual teams.
+17. **[17-digital-forensics-triage](17-digital-forensics-triage/)** — a
+    defensible triage process using synthetic evidence.
+18. **[18-threat-modeling](18-threat-modeling/)** — threat modeling for mobile
+    money and community-service applications.
+19. **[19-third-party-risk](19-third-party-risk/)** — supplier security
+    assessment and risk acceptance.
+20. **[20-business-continuity](20-business-continuity/)** — continuity metrics
+    and disaster-recovery exercise design.
 
 ## Safety and scope
 

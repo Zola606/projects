@@ -1,0 +1,1 @@
+{"title":"Mobile-Money Threat Modeling","category":"cybersecurity-soc","context":"African fintech or community-payment application","tools":["STRIDE","Data-flow diagrams","Risk register"],"outcome":"Identify abuse cases and prioritize controls for a mobile-first service."}

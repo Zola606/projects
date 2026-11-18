@@ -1,0 +1,1 @@
+{"title":"Secure Cisco Management Plane","category":"cisco-network-security","context":"Multi-site African NGO","tools":["Cisco IOS","TACACS+ or RADIUS","Syslog"],"outcome":"Limit administration to authenticated, logged, role-based access."}

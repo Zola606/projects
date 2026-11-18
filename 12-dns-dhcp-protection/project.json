@@ -1,0 +1,1 @@
+{"title":"Protected DNS and DHCP Services","category":"cisco-network-security","context":"Rural campus with intermittent upstream connectivity","tools":["Cisco IOS DHCP snooping","DNS filtering","Packet Tracer or GNS3"],"outcome":"Prevent rogue service injection and document safe local-service continuity."}

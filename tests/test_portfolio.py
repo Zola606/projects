@@ -9,7 +9,13 @@ ROOT = pathlib.Path(__file__).parents[1]
 class PortfolioTests(unittest.TestCase):
     def test_ten_projects_have_metadata(self):
         projects = sorted(p for p in ROOT.iterdir() if p.is_dir() and p.name[:2].isdigit())
-        self.assertEqual(len(projects), 10)
+        self.assertEqual(len(projects), 20)
+        categories = [
+            json.loads((project / "project.json").read_text())["category"]
+            for project in projects
+        ]
+        self.assertEqual(categories.count("cisco-network-security"), 10)
+        self.assertEqual(categories.count("cybersecurity-soc"), 10)
         for project in projects:
             metadata = project / "project.json"
             self.assertTrue(metadata.exists(), project)

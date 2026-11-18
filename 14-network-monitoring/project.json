@@ -1,0 +1,1 @@
+{"title":"Network Monitoring and Capacity Baseline","category":"cisco-network-security","context":"Small ISP or municipal service network","tools":["SNMPv3","Syslog","NetFlow or IPFIX"],"outcome":"Detect control failures and capacity risk while minimizing sensitive telemetry."}

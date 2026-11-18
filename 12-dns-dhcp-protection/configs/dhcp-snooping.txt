@@ -1,0 +1,8 @@
+! Lab-only example; trust only the actual uplink to the authorized server.
+ip dhcp snooping
+ip dhcp snooping vlan 10,20,40
+interface GigabitEthernet1/0/48
+ ip dhcp snooping trust
+interface range GigabitEthernet1/0/1-47
+ ip dhcp snooping limit rate 10
+

@@ -1,0 +1,1 @@
+{"title":"Data-Center Tier Segmentation","category":"cisco-network-security","context":"Regional fintech or health-service provider","tools":["Cisco ACLs or VRFs","Firewall policy","Network diagram"],"outcome":"Control north-south and east-west traffic between web, application, database, and management tiers."}
