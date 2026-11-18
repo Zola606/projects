@@ -1,0 +1,1 @@
+{"title":"DHCP Relay Failure Recovery","problem":"A remote VLAN cannot obtain addresses from the central DHCP server.","topology":"2 routers, 2 switches, DHCP server, 3 clients","skills":["DHCP relay","SVIs","Troubleshooting"],"source":"Cisco DHCP troubleshooting guide"}

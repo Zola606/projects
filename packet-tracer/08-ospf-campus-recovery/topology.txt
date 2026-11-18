@@ -1,0 +1,5 @@
+R1 ===== R2 ===== R3
+ \\_______________//
+LAN-A behind R1, LAN-B behind R2, LAN-C behind R3
+Use private lab addressing and document every transit subnet.
+

@@ -1,0 +1,1 @@
+{"title":"SME VLAN Segmentation","problem":"A flat office LAN lets guest devices reach business systems.","topology":"1 router, 1 multilayer switch, 4 PCs, 1 server","skills":["VLANs","SVIs","ACLs"],"source":"Cisco/CISA segmentation and small-business guidance"}

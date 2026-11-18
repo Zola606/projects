@@ -1,0 +1,3 @@
+Provider R1 -- Customer Edge R2 -- SW-CUST -- customer LAN A/B
+Transit=192.0.2.0/30; customer LAN-A=10.100.10.0/24; LAN-B=10.100.20.0/24
+

@@ -1,0 +1,4 @@
+R1 -- SW1 -- AP1 (staff and guest SSIDs)
+SW1 -- clinical server; staff PC; guest laptop
+VLAN 50=staff, VLAN 60=guest, VLAN 99=AP management
+

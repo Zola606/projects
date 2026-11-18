@@ -1,0 +1,1 @@
+{"title":"OSPF Campus Convergence","problem":"A routed campus loses reachability after a fiber or microwave link fails.","topology":"3 routers, 3 switches, 3 LANs, redundant links","skills":["OSPF","Passive interfaces","Convergence"],"source":"Cisco routing operations practice"}

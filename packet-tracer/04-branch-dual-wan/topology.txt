@@ -1,0 +1,4 @@
+LAN SW1 -- R1 -- ISP-A -- Test Server A
+          \\-- ISP-B -- Test Server B
+LAN=10.40.10.0/24, WAN-A=203.0.113.0/30, WAN-B=198.51.100.0/30
+

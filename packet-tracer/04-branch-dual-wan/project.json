@@ -1,0 +1,1 @@
+{"title":"Branch Dual-WAN Failover","problem":"A community office loses services whenever its only ISP link fails.","topology":"2 edge routers, 2 switches, 2 simulated ISPs, clients","skills":["Static routes","IP SLA concepts","NAT"],"source":"Cisco Unified Branch Design Guide"}

@@ -1,0 +1,5 @@
+SW1 (root) ===== SW2
+  \\              //
+   ===== SW3 =====
+PC-A/PC-B on SW1; PC-C/PC-D on SW2
+

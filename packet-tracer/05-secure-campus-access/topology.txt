@@ -1,0 +1,4 @@
+R1/DHCP -- SW-CORE -- SW-ACCESS -- PCs
+VLAN 10=students, VLAN 20=staff, VLAN 99=management
+Trust only the SW-CORE uplink toward the authorized DHCP service.
+

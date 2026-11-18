@@ -1,0 +1,1 @@
+{"title":"Small-ISP Customer Edge","problem":"A community ISP needs predictable customer routing and management isolation.","topology":"Provider router, customer edge router, switch, two customer LANs","skills":["Static routing","NAT","ACLs","Prefix documentation"],"source":"Cisco branch and edge-routing design guidance"}

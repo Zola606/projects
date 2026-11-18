@@ -1,0 +1,3 @@
+DHCP Server -- SW-CORE -- R1 ===== R2 -- SW-BRANCH -- PC1/PC2
+CORE=10.0.0.0/24, transit=10.0.1.0/30, branch clients=10.20.10.0/24
+

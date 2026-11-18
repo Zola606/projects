@@ -38,6 +38,14 @@ class PortfolioTests(unittest.TestCase):
                 self.assertNotIn("nmap -p-", text)
                 self.assertNotIn("rm -rf /", text)
 
+    def test_ten_packet_tracer_project_packs_have_metadata(self):
+        projects = sorted((ROOT / "packet-tracer").glob("*/project.json"))
+        self.assertEqual(len(projects), 10)
+        for metadata in projects:
+            project = metadata.parent
+            self.assertTrue((project / "README.md").exists())
+            self.assertTrue((project / "topology.txt").exists())
+
 
 if __name__ == "__main__":
     unittest.main()

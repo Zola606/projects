@@ -1,0 +1,1 @@
+{"title":"Secure Campus Access Layer","problem":"Rogue DHCP and ARP spoofing can redirect student traffic.","topology":"Router, 2 access switches, server, 6 clients","skills":["DHCP snooping","DAI","Port security"],"source":"Cisco switch security configuration guidance"}

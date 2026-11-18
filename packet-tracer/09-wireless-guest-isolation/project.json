@@ -1,0 +1,1 @@
+{"title":"Clinic Guest-Wi-Fi Isolation","problem":"Visitors need internet access without reaching clinical systems.","topology":"Router, switch, AP, staff/guest clients, server","skills":["SSID/VLAN mapping","ACLs","DHCP"],"source":"Cisco branch wireless design guidance"}

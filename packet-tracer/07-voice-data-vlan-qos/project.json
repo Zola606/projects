@@ -1,0 +1,1 @@
+{"title":"Voice and Data VLAN Quality","problem":"Calls become unusable when file transfers consume a small WAN link.","topology":"Router, PoE switch model, IP phones, PCs, server","skills":["Voice VLAN","QoS classification","DHCP options"],"source":"Cisco campus voice design concepts"}

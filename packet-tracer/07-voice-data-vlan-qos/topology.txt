@@ -1,0 +1,4 @@
+R1 -- SW1 -- IP Phone1 + PC1
+          -- IP Phone2 + PC2
+VLAN 10=data 10.70.10.0/24; VLAN 110=voice 10.70.110.0/24
+

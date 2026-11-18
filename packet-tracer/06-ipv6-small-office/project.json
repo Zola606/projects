@@ -1,0 +1,1 @@
+{"title":"IPv6 Small-Office Migration","problem":"A growing office needs IPv6 while retaining IPv4 services safely.","topology":"Edge router, switch, dual-stack server, 4 clients","skills":["IPv6 addressing","RA","ACLs"],"source":"Cisco IPv6 deployment practices"}

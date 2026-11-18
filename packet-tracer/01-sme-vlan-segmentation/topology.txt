@@ -1,0 +1,5 @@
+Router R1 -- trunk -- Switch SW1
+SW1: Fa0/1 staff PC, Fa0/2 server, Fa0/3 guest PC, Fa0/4 admin PC
+VLAN 10=10.10.10.0/24 staff, 20=10.10.20.0/24 servers,
+30=10.10.30.0/24 guest, 99=10.10.99.0/24 management
+

@@ -1,0 +1,3 @@
+ISP-R -- R1 dual-stack -- SW1 -- staff PCs, guest PCs, web server
+IPv6 documentation prefix: 2001:db8:100::/48 (lab only)
+

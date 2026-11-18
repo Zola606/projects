@@ -1,0 +1,1 @@
+{"title":"STP Loop Prevention","problem":"An access switch connection creates a broadcast storm and unstable connectivity.","topology":"3 switches in a triangle, 4 PCs","skills":["STP","Root bridge","PortFast/BPDU Guard"],"source":"Cisco STP troubleshooting guide"}
